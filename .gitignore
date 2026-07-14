@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# WhatsApp session data
+whatsapp/auth_info/
+whatsapp_sessions.json
+whatsapp/whatsapp_error.log
+whatsapp/stdout.log
+whatsapp/stderr.log
+
+# Runtime data
+settings.json
+chats.json
+telegram_sessions.json
+server.pid
+server.log
+server_start.log
+wa_err.log
+wa_out.log
+test.txt
+
+# Node.js portable (too large for git)
+node_bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
